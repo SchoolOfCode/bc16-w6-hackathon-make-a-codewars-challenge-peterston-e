@@ -22,14 +22,6 @@
  */
 
 export function getDomainName(url) {
-	let domain = url.replace(/(?:https?:\/\/)/, "");
-	domain = domain.replace(/^(?:[^@\n]+@)/, "");
-	domain = domain.replace(/^(?:www\.)/, "");
-	domain = domain.replace(/\.\w+.*$/, "");
-	return domain;
+	// get hacking!
+	return ""; // domain
 }
-
-// export function getDomainName(url) {
-// 	// get hacking!
-// 	return ""; // domain
-// }
