@@ -14,7 +14,8 @@
  * For this challenge it wil be super useful if you familiarise yourself with
  * regular expressions (regex).
  *
- * This website will be super helpful https://regexr.com/
+ *
+ * This website might also be super helpful https://regexr.com/
  *
  * Happy coding !
  */
