@@ -4,7 +4,8 @@
  * in the form of a string and returns only the domain name from that
  * string.
  *
- * Your implementation should handle strings whose length is between 0 (inclusive) and 2500 (inclusive).
+ * Assume that only strings will be passed in and only permitted urls
+ * will be used.
  *
  * A few examples:
  * 'https://www.google.com' should return only 'google' as a string.
