@@ -26,4 +26,4 @@ function getDomainName(url) {
 	return domain;
 }
 
-console.log(getDomainName("http://www.google.com"));
+console.log(getDomainName("https://stackoverflow.com"));

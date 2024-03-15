@@ -20,6 +20,14 @@
  */
 
 export function getDomainName(url) {
-	// get hacking!
-	return ""; // domain
+	let domain = url.replace(/(?:https?:\/\/)/, "");
+	domain = domain.replace(/^(?:[^@\n]+@)/, "");
+	domain = domain.replace(/^(?:www\.)/, "");
+	domain = domain.replace(/\.\w+.*$/, "");
+	return domain;
 }
+
+// export function getDomainName(url) {
+// 	// get hacking!
+// 	return ""; // domain
+// }
